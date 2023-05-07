@@ -4,9 +4,9 @@ importers:
 
   .:
     dependencies:
-      front:
+      frontend:
         specifier: workspace:^
-        version: link:apps/front
+        version: link:apps/frontend
     devDependencies:
       autoprefixer:
         specifier: ^10.4.14
@@ -73,7 +73,7 @@ importers:
         specifier: ^4.5.3
         version: 4.9.5
 
-  apps/front:
+  apps/frontend:
     dependencies:
       next:
         specifier: ^13.4.1

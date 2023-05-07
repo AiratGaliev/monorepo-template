@@ -21,6 +21,6 @@
   "packageManager": "pnpm@7.15.0",
   "name": "monorepo-template",
   "dependencies": {
-    "front": "workspace:^"
+    "frontend": "workspace:^"
   }
 }
