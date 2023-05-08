@@ -4,6 +4,9 @@ importers:
 
   .:
     dependencies:
+      backend:
+        specifier: workspace:^
+        version: link:apps/backend
       frontend:
         specifier: workspace:^
         version: link:apps/frontend
