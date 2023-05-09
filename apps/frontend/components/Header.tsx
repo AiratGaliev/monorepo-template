@@ -2,7 +2,7 @@ import * as React from "react";
 
 export const Header = ({
   text,
-  className,
+  className = "text-3xl font-bold underline",
 }: {
   text: string;
   className?: string;
